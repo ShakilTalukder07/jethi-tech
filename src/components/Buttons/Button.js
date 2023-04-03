@@ -2,7 +2,7 @@ import React from 'react';
 
 const Button = (props) => {
     return (
-        <button className='border-solid border-black border-[1px] text-black py-2 px-4'>
+        <button className='border-solid border-black border-[1px] text-black py-1 px-2'>
             {props.children}
         </button>
     );

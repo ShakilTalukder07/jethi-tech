@@ -20,7 +20,7 @@ const Navbar = () => {
                 <img src={logo} alt="" className='h-10 w-10 ml-4' />
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="flex gap-6 px-1 font-sans">
+                <ul className="flex gap-6 px-1 font-sans mt-5">
                     <li><a href='#home'>Home</a></li>
                     <li><a href='#offer'>Our Offerings</a></li>
                     <li><a href='#team'>Our Team</a></li>
@@ -29,7 +29,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a href='.' className="px-1 py-1 border-solid border-[1px] bg-[#002550] text-white mr-4">Register Now</a>
+                <a href='.' className="px-3 py-1 border-solid border-[1px] bg-[#002550] text-white mr-4 font-sans text-sm mt-5">Register Now</a>
             </div>
         </div>
     );

@@ -3,10 +3,11 @@ import offer1 from '../../../assets/offer1.png';
 import offer2 from '../../../assets/offer2.png';
 import offer3 from '../../../assets/offer3.png';
 
+
 const Offers = () => {
     return (
         <div id='offer'>
-            <h2 className='text-xl text-center font-bold underline'>Our Offerings</h2>
+            <h2 className='text-xl text-center font-bold underline mb-3'>Our Offerings</h2>
             <p className='text-xs text-center'>This whole purchase journey can be divided into three stages. For more details, <span className='font-bold'>Click Here</span></p>
             <div className='flex gap-[29px] justify-center mt-[31px]'>
                 <div className='w-[467px] h-[50px] bg-[#F2F4F6] text-center'>Pre-Booking</div>

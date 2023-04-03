@@ -13,7 +13,7 @@ const TeamMembers = () => {
                     <div className='m-2'>
                         <h2 className='text-xl mb-2'>Brajesh Pathak</h2>
                         <p className='text-xs'>A Chartered Accountant & Company Secretary, has over a decade of experience in managing realty focused venture capital funds, and was heading Azure Capital Advisors Private Limited. He has also been...</p>
-                        <p href='.' className='text-end text-xs font-bold'>View more</p>
+                        <p className='text-end text-xs font-bold mt-3 mr-2'>View more</p>
                     </div>
                 </div>
                 <div className='w-[467px] h-[370px] shadow-xl rounded-lg '>
@@ -21,7 +21,7 @@ const TeamMembers = () => {
                     <div className='m-2'>
                         <h2 className='text-xl mb-2'>Deepak Shukla</h2>
                         <p className='text-xs'>A Chartered Accountant & Company Secretary, has over a decade of experience in managing realty focused venture capital funds, and was heading Azure Capital Advisors Private Limited. He has also been...</p>
-                        <p href='.' className='text-end text-xs font-bold'>View more</p>
+                        <p className='text-end text-xs font-bold mt-3 mr-2'>View more</p>
                     </div>
                 </div>
                 <div className='w-[467px] h-[370px] shadow-xl rounded-lg '>
@@ -29,7 +29,7 @@ const TeamMembers = () => {
                     <div className='m-2'>
                         <h2 className='text-xl mb-2'>Brajesh Pathak</h2>
                         <p className='text-xs'>A Chartered Accountant & Company Secretary, has over a decade of experience in managing realty focused venture capital funds, and was heading Azure Capital Advisors Private Limited. He has also been...</p>
-                        <p href='.' className=' text-end text-xs font-bold'>View more</p>
+                        <p className=' text-end text-xs font-bold mt-3 mr-2'>View more</p>
                     </div>
                 </div>
             </div>

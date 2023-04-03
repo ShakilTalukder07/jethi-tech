@@ -6,38 +6,59 @@ import Button from '../../../components/Buttons/Button';
 
 const Blogs = () => {
     return (
-        <div id='blog' className='my-[56px] bg-[#F2F4F6] '>
-            <h2 className='text-xl text-center font-bold underline'>Blog</h2>
+        <div id='blog' className='my-[56px]  '>
+            <h2 className='text-xl text-center font-bold underline'>Blogs</h2>
             <div className='flex gap-[29px] justify-center mt-[31px]'>
-                <div className='w-[467px] h-[360px] shadow-xl rounded-lg '>
-                    <img src={blog1} alt="" className='w-[300px] h-[210px] rounded-lg m-2 ' />
-                    <div className='m-2'>
-                        <h2 className='text-xl mb-2'>Background verification</h2>
-                        <p className='text-xs'>Assuring your capital is in safe hands, we provide detailed verification reports of the project and developer. These are customized and detailed...</p>
+                <div className='w-[467px] h-[450px] shadow-xl rounded-lg m-2 '>
+                    <img src={blog1} alt="" className='w-[285px] h-[210px] rounded-lg m-2 ' />
+                    <div className='mx-2'>
+                        <p className='text-xs my-2'>Real Estate, Analysis</p>
+                        <div className='flex justify-between text-xs'>
+                            <p>09 jun 2022</p>
+                            <p>By Admin</p>
+                        </div>
+                        <p className='text-xl my-2 font-semibold'>Guide for personal property Buying</p>
+                        <p className='text-xs my-3'>"Lorem ipsum dolor sit amet, consectetur adipis
+                            cing elit, sed do eiusmod temp incididuut labore dolore magna aliqua do eiusmod...
+                        </p>
+                        <Button>
+                            View More
+                        </Button>
                     </div>
-                    <Button>
-                        View More
-                    </Button>
                 </div>
-                <div className='w-[467px] h-[360px] shadow-xl rounded-lg '>
-                    <img src={blog2} alt="" className='w-[300px] h-[210px] rounded-lg m-2 ' />
-                    <div className='m-2'>
-                        <h2 className='text-xl mb-2'>Background verification</h2>
-                        <p className='text-xs'>Assuring your capital is in safe hands, we provide detailed verification reports of the project and developer. These are customized and detailed...</p>
+                <div className='w-[467px] h-[450px] shadow-xl rounded-lg m-2 '>
+                    <img src={blog2} alt="" className='w-[285px] h-[210px] rounded-lg m-2 ' />
+                    <div className='mx-2'>
+                        <p className='text-xs my-2'>Real Estate, Analysis</p>
+                        <div className='flex justify-between text-xs'>
+                            <p>09 jun 2022</p>
+                            <p>By Admin</p>
+                        </div>
+                        <p className='text-xl my-2 font-semibold'>Guide for personal property Buying</p>
+                        <p className='text-xs my-3'>"Lorem ipsum dolor sit amet, consectetur adipis
+                            cing elit, sed do eiusmod temp incididuut labore dolore magna aliqua do eiusmod...
+                        </p>
+                        <Button>
+                            View More
+                        </Button>
                     </div>
-                    <Button>
-                        View More
-                    </Button>
                 </div>
-                <div className='w-[467px] h-[360px] shadow-xl rounded-lg '>
-                    <img src={blog3} alt="" className='w-[300px] h-[210px] rounded-lg m-2 ' />
-                    <div className='m-2'>
-                        <h2 className='text-xl mb-2'>Background verification</h2>
-                        <p className='text-xs'>Assuring your capital is in safe hands, we provide detailed verification reports of the project and developer. These are customized and detailed...</p>
+                <div className='w-[467px] h-[450px] shadow-xl rounded-lg m-2 '>
+                    <img src={blog3} alt="" className='w-[285px] h-[210px] rounded-lg m-2 ' />
+                    <div className='mx-2'>
+                        <p className='text-xs my-2'>Real Estate, Analysis</p>
+                        <div className='flex justify-between text-xs'>
+                            <p>09 jun 2022</p>
+                            <p>By Admin</p>
+                        </div>
+                        <p className='text-xl my-2 font-semibold'>Guide for personal property Buying</p>
+                        <p className='text-xs my-3'>"Lorem ipsum dolor sit amet, consectetur adipis
+                            cing elit, sed do eiusmod temp incididuut labore dolore magna aliqua do eiusmod...
+                        </p>
+                        <Button>
+                            View More
+                        </Button>
                     </div>
-                    <Button>
-                        View More
-                    </Button>
                 </div>
             </div>
         </div>
