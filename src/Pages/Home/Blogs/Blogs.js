@@ -6,7 +6,7 @@ import Button from '../../../components/Buttons/Button';
 
 const Blogs = () => {
     return (
-        <div className='my-[56px] bg-[#F2F4F6] '>
+        <div id='blog' className='my-[56px] bg-[#F2F4F6] '>
             <h2 className='text-xl text-center font-bold underline'>Blog</h2>
             <div className='flex gap-[29px] justify-center mt-[31px]'>
                 <div className='w-[467px] h-[360px] shadow-xl rounded-lg '>

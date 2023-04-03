@@ -5,7 +5,7 @@ import member3 from '../../../assets/member3.jpg';
 
 const TeamMembers = () => {
     return (
-        <div className='my-[35px]'>
+        <div id='team' className='my-[35px]'>
             <h2 className='text-xl text-center underline mb-[35px] font-bold'>Our Team Members</h2>
             <div className='flex gap-[29px] justify-center mt-[31px]'>
                 <div className='w-[467px] h-[370px] shadow-xl rounded-lg '>

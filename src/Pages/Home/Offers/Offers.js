@@ -5,7 +5,7 @@ import offer3 from '../../../assets/offer3.png';
 
 const Offers = () => {
     return (
-        <div>
+        <div id='offer'>
             <h2 className='text-xl text-center font-bold underline'>Our Offerings</h2>
             <p className='text-xs text-center'>This whole purchase journey can be divided into three stages. For more details, <span className='font-bold'>Click Here</span></p>
             <div className='flex gap-[29px] justify-center mt-[31px]'>
