@@ -3,6 +3,7 @@ import Banner from '../Banner/Banner';
 import Offers from '../Offers/Offers';
 import TeamMembers from '../TeamMembers/TeamMembers';
 import Blogs from '../Blogs/Blogs';
+import Contact from '../Contact/Contact';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <Offers></Offers>
             <TeamMembers></TeamMembers>
             <Blogs></Blogs>
+            <Contact></Contact>
         </div>
     );
 };
