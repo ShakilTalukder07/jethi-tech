@@ -6,7 +6,7 @@ import Blogs from '../Blogs/Blogs';
 
 const Home = () => {
     return (
-        <div className='mx-[228px]'>
+        <div className='mx-[128px]'>
             <Banner></Banner>
             <Offers></Offers>
             <TeamMembers></TeamMembers>
